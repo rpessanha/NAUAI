@@ -40,7 +40,25 @@ Interpretar os clusters
 ○ Analisar médias por cluster (idade, gasto, visitas) e sugerir rótulos (“Alto gasto & alta frequência”, etc.).
 ○ Porquê: transformar números em segmentos de negócio acionáveis.
 
+
 Entregáveis
 
 ○ Tabela k vs. silhouette.
 ○ Tabela com médias por cluster; 2 recomendações de ação por segmento (campanhas, upgrades, retenção).
+
+#################################################################################3
+Modulo 7
+
+Séries Temporais: Previsão de Procura Semanal
+❱ Objetivo:
+Prever procura na próxima semana a partir do histórico.
+❱ Tarefas:
+Criar baseline ingénuo (valor da última semana).
+Criar modelo com lags (Regressão com lag_1, lag_2, média móvel).
+Avaliar com MAE e MAPE; comparar com baseline.
+(Opcional) Comentar efeito de sazonalidade e como o tratarias no teu setor.
+❱ Sugestões de pesquisa:
+"pandas shift lag features";
+"rolling mean pandas";
+"MAE vs MAPE";
+"TimeSeriesSplit sklearn".
