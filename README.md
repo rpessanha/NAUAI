@@ -50,13 +50,16 @@ Entregáveis
 Modulo 7
 
 Séries Temporais: Previsão de Procura Semanal
+
 ❱ Objetivo:
 Prever procura na próxima semana a partir do histórico.
+
 ❱ Tarefas:
 Criar baseline ingénuo (valor da última semana).
 Criar modelo com lags (Regressão com lag_1, lag_2, média móvel).
 Avaliar com MAE e MAPE; comparar com baseline.
 (Opcional) Comentar efeito de sazonalidade e como o tratarias no teu setor.
+
 ❱ Sugestões de pesquisa:
 "pandas shift lag features";
 "rolling mean pandas";
